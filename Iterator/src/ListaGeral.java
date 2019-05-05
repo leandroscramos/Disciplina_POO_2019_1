@@ -5,8 +5,6 @@ public class ListaGeral {
     Lista alunosUfscar = new ListaAlunosUfscar();
     Lista alunosIfsp = new ListaAlunosIfsp();
 
-
-
     public void geraListaTodosAlunos(){
         imprimeAlunos(alunosUfscar.criaIterator());
         System.out.println("------------------");

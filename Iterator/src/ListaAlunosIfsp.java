@@ -19,7 +19,6 @@ public class ListaAlunosIfsp implements Lista{
             AlunoEnsinoSuperior novoAluno = new AlunoEnsinoSuperior(nome,  curso,  inicio,  regular);
             alunos[numeroAlunos++] = novoAluno;
         }
-
     }
 
     public Iterator criaIterator(){
