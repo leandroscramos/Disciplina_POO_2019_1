@@ -21,4 +21,8 @@ public class ListaIfspIterator implements Iterator {
     public Object next() {
         return alunos[i++];
     }
+
+    public void remove() {
+
+    }
 }
